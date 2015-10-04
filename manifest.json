@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "counter",
+  "version": "1.0",
+
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+    },
+    "default_title": "counter",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  }
+}
