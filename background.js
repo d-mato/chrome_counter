@@ -26,6 +26,7 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
     count ++;
     chrome.storage.local.set({count: count, status: 'start'});
     status = 'start';
+    chrome.browserAction.setBadgeText({text: count.toString()});
     console.log(count);
   }
 });
