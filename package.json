@@ -1,0 +1,25 @@
+{
+  "name": "pronouncer",
+  "version": "1.0.0",
+  "description": "簡易ストップウォッチプログラム",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-mato/chrome_counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-mato/chrome_counter/issues"
+  },
+  "homepage": "https://github.com/d-mato/chrome_counter#readme"
+}
