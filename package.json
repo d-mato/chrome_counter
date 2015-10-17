@@ -1,5 +1,5 @@
 {
-  "name": "pronouncer",
+  "name": "chrome_counter",
   "version": "1.0.0",
   "description": "簡易ストップウォッチプログラム",
   "main": "index.js",
